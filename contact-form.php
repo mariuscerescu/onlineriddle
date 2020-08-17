@@ -10,7 +10,8 @@ $txt = $message;
 
 mail($mailTo, $headers, $txt);
 // header("Location: index.php?mailsend");
-echo "Thank you, your message has been successfully sent!";
+header('Location: thankyou.html');
+exit;
 }
 ?>
 
