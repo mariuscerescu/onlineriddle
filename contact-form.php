@@ -10,7 +10,6 @@ $txt = $message;
 
 mail($mailTo, $headers, $txt);
 header("Location: https://onlineriddle.netlify.app/thankyou.html/");
-exit();
 }
 ?>
 
