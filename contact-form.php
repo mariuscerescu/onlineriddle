@@ -9,7 +9,7 @@ $headers = "From: ".$mailFrom;
 $txt = $message;
 
 mail($mailTo, $headers, $txt);
-header("Location: thankyou.html");
+header("Location: thankyou.php?mailsend");
 }
 ?>
 
