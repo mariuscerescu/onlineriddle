@@ -10,6 +10,7 @@ $txt = $message;
 
 mail($mailTo, $headers, $txt);
 header("Location: thankyou.html");
+exit();
 }
 ?>
 
