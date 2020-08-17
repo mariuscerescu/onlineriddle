@@ -1,0 +1,326 @@
+
+
+	function disappear() {
+		document.getElementById("container").innerHTML= "";
+		document.getElementById('message').innerHTML = 'Ha Ha Ha <br> Now try to find it!'
+        document.getElementById('counter').innerHTML = 1
+        document.getElementById('btn2').style.display = "inline"
+
+
+	}
+
+function disappear2(){
+
+		document.getElementById('message').innerHTML = 'Congratulations! <br> But now you have to press the button 100 times!'
+        document.getElementById('counter').innerHTML = 2
+     document.getElementById('btn2').style.display = "none"
+    document.getElementById('ptb').innerHTML = "Press the button 100 times"
+     document.getElementById('btn4').style.display="inline"
+
+
+}
+	
+function disappear3(){
+
+	var i = document.getElementById("counter").innerHTML;
+	if (i<100){
+		i++;
+	} else{
+		i = 0
+	}
+
+if(i === 100){
+
+	document.getElementById('message').innerHTML = 'Ha Ha Ha <br> I tricked you! <br> You will have to do it forever'
+}
+
+if(i === 15){
+
+	document.getElementById('btn4').style.color ="grey"
+    document.getElementById('btn4').textContent ="Find now"
+     document.getElementById('btn5').style.display="inline"
+} else {
+	document.getElementById('btn4').style.color ="black"
+	document.getElementById('btn4').textContent ="Press Me"
+	document.getElementById('btn5').style.display="none"
+}
+
+
+
+	document.getElementById("counter").innerHTML = i;
+
+}
+
+function disappear4(){
+document.getElementById('btn5').style.display ="none"
+document.getElementById('btn4').style.display ="none"
+document.getElementById('table').style.display="inline"
+document.getElementById('message').innerHTML = 'You are going well <br> But my last challenge for you will be impossible!<br> <br>Make all the buttons disappear <br> Good Luck!'
+document.getElementById('counter').style.display ="none"
+document.getElementById('ptb').style.display ="none"
+document.getElementById('reset').style.display ="inline"
+}
+
+function t1(){
+   
+
+	if(document.getElementById('5').style.display === "none"){
+        document.getElementById('2').style.display = "none"
+         document.getElementById('6').style.display = "none"
+	}
+	document.getElementById('5').style.display ="none"
+}
+
+function t2(){
+   
+	if(document.getElementById('5').style.display === "none"){
+        document.getElementById('2').style.display = "none"
+         document.getElementById('4').style.display = "none"
+	}
+	document.getElementById('5').style.display ="none"
+	
+	if(document.getElementById('1').style.display === "none" &&
+		document.getElementById('2').style.display === "none" &&
+		document.getElementById('3').style.display === "none" &&
+		document.getElementById('4').style.display === "none" &&
+		document.getElementById('5').style.display === "none" &&
+		document.getElementById('6').style.display === "none" &&
+		document.getElementById('7').style.display === "none" &&
+		document.getElementById('8').style.display === "none" &&
+		document.getElementById('9').style.display === "none"){
+
+		document.getElementById('5').style.display = "inline"
+	}
+}
+function t3(){
+   
+   if(document.getElementById('5').style.display === "none"){
+        document.getElementById('7').style.display = "none"
+         document.getElementById('9').style.display = "none"
+	}
+	
+	document.getElementById('5').style.display ="none"
+	
+}
+function t4(){
+   
+   if(document.getElementById('5').style.display === "none"){
+        document.getElementById('3').style.display = "none"
+         document.getElementById('8').style.display = "none"
+	}
+	
+	document.getElementById('5').style.display ="none"
+	
+}
+function t5(){
+   
+
+}
+function t6(){
+   
+	if(document.getElementById('5').style.display === "none"){
+        document.getElementById('1').style.display = "none"
+         document.getElementById('6').style.display = "none"
+	}
+
+	document.getElementById('5').style.display ="none"
+
+		if(document.getElementById('1').style.display === "none" &&
+		document.getElementById('2').style.display === "none" &&
+		document.getElementById('3').style.display === "none" &&
+		document.getElementById('4').style.display === "none" &&
+		document.getElementById('5').style.display === "none" &&
+		document.getElementById('6').style.display === "none" &&
+		document.getElementById('7').style.display === "none" &&
+		document.getElementById('8').style.display === "none" &&
+		document.getElementById('9').style.display === "none"){
+
+		document.getElementById('5').style.display = "inline"
+	}
+	
+}
+function t7(){
+   
+   if(document.getElementById('5').style.display === "none"){
+        document.getElementById('2').style.display = "none"
+         document.getElementById('4').style.display = "none"
+	}
+	
+	document.getElementById('5').style.display ="none"
+	
+}
+function t8(){
+   
+   if(document.getElementById('5').style.display === "none"){
+        document.getElementById('7').style.display = "none"
+         document.getElementById('2').style.display = "none"
+	}
+	
+	document.getElementById('5').style.display ="none"
+	
+}
+function t9(){
+   
+if(document.getElementById('5').style.display === "none"){
+        document.getElementById('8').style.display = "none"
+         document.getElementById('9').style.display = "none"
+	}
+
+	document.getElementById('5').style.display ="none"
+		
+		if(document.getElementById('1').style.display === "none" &&
+		document.getElementById('2').style.display === "none" &&
+		document.getElementById('3').style.display === "none" &&
+		document.getElementById('4').style.display === "none" &&
+		document.getElementById('5').style.display === "none" &&
+		document.getElementById('6').style.display === "none" &&
+		document.getElementById('7').style.display === "none" &&
+		document.getElementById('8').style.display === "none" &&
+		document.getElementById('9').style.display === "none"){
+
+		document.getElementById('5').style.display = "inline"
+	}
+}
+	
+
+function reset(){
+    document.getElementById('1').style.display = "inline"
+	document.getElementById('2').style.display = "inline"
+	document.getElementById('3').style.display = "inline"
+	document.getElementById('4').style.display = "inline"
+	document.getElementById('6').style.display = "inline"
+	document.getElementById('7').style.display = "inline"
+	document.getElementById('8').style.display = "inline"
+	document.getElementById('9').style.display = "inline"
+}
+
+
+// -------------------------------------------------------InputBox
+function answer1() {
+  var input = document.getElementById("txtbox").value;
+  if(input === "awesome"){
+
+document.getElementById("form1").action="awesome.html";
+  } else {
+    document.getElementById("wrong").innerHTML ="The answer is wrong!"
+  }
+}
+
+
+function validateMyForm1() {
+var input = document.getElementById("txtbox").value;
+  if(input === "awesome"){
+
+return true;
+  } else {
+    
+return false;
+  }
+
+};
+
+// -------------------------------------------------------InputBox2
+function answer2() {
+  var input = document.getElementById("txtbox").value;
+  if(input === "super"){
+
+document.getElementById("form1").action="super.html";
+  } else {
+    
+
+    document.getElementById("wrong").innerHTML ="The answer is wrong!"
+  }
+}
+
+
+function validateMyForm2() {
+var input = document.getElementById("txtbox").value;
+  if(input === "super"){
+
+return true;
+  } else {
+    
+return false;
+  }
+
+};
+
+// -------------------------------------------------------InputBox3
+function answer3() {
+  var input = document.getElementById("txtbox").value;
+  if(input === "correct"){
+
+document.getElementById("form1").action="correct.html";
+  } else {
+    
+
+    document.getElementById("wrong").innerHTML ="The answer is wrong!"
+  }
+}
+
+
+function validateMyForm3() {
+var input = document.getElementById("txtbox").value;
+  if(input === "correct"){
+
+return true;
+  } else {
+    
+return false;
+  }
+
+};
+
+// -------------------------------------------------------InputBox4
+function answer4() {
+  var input = document.getElementById("txtbox").value;
+  if(input === "6441413"){
+
+document.getElementById("form1").action="6441413.html";
+  } else {
+    
+
+    document.getElementById("wrong").innerHTML ="The answer is wrong!"
+  }
+}
+
+
+function validateMyForm4() {
+var input = document.getElementById("txtbox").value;
+  if(input === "6441413"){
+
+return true;
+  } else {
+    
+return false;
+  }
+
+};
+
+  // -------------------------------------------------------InputBox5
+function answer5() {
+  var input = document.getElementById("txtbox").value;
+  if(input === "m"){
+
+document.getElementById("form1").action="m.html";
+  } else {
+    
+
+    document.getElementById("wrong").innerHTML ="The answer is wrong!"
+  }
+}
+
+
+function validateMyForm5() {
+var input = document.getElementById("txtbox").value;
+  if(input === "m"){
+
+return true;
+  } else {
+    
+return false;
+  }
+
+};
+
+
