@@ -33,7 +33,7 @@ font-family: 'Lexend Deca', sans-serif
   margin-right: auto;
 }
 
-
+/*----------------------------------------------------------------BUTTON PAGE--------------------*/
 .btn{
 
 background-color: white;
@@ -294,7 +294,7 @@ font-family: 'Lexend Deca', sans-serif;
 #awesome{
 	font-family: 'Lexend Deca', sans-serif;
 	font-size:250px;
-	color:black;
+	color:#080808;
 }
 
 #btnhint{ background-color: #lightgray;
