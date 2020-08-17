@@ -9,7 +9,7 @@ $headers = "From: ".$mailFrom;
 $txt = $message;
 
 mail($mailTo, $headers, $txt);
-header("Location: awesome.php?mailsend");
+header("Location: https://onlineriddle.netlify.app/thankyou.html/");
 exit();
 }
 ?>
