@@ -10,7 +10,7 @@ $txt = $message;
 
 mail($mailTo, $headers, $txt);
 header("Location: thankyou.php?mailsend");
-
+exit();
 }
 ?>
 
