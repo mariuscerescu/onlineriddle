@@ -1,5 +1,4 @@
-
-
+// -------------------------------------------------------------m----------------------------------
 	function disappear() {
 		document.getElementById("container").innerHTML= "";
 		document.getElementById('message').innerHTML = 'Ha Ha Ha <br> Now try to find it!'
@@ -288,4 +287,232 @@ return false;
   }
 
 };
+// ------------------------------------------------------------6441413---------------------------------------
+var Url11 = "image/fotom/lv.jpg";
+var Url12 = "image/fotom/tmsd.jpg";
 
+var Url21 = "image/fotom/gol.png";
+var Url22 = "image/fotom/tms.jpg";
+
+var Url31 = "image/fotom/tmdj.jpg";
+var Url32 = "image/fotom/tmsst.jpg";
+
+var Url41 = "image/fotom/lv.jpg";
+var Url42 = "image/fotom/tmst.jpg";
+
+var Url51 = "image/fotom/tmd.jpg";
+var Url52 = "image/fotom/tmj.jpg";
+
+var Url61 = "image/fotom/lv.jpg";
+var Url62 = "image/fotom/tmsst.jpg";
+
+var Url71 = "image/fotom/tmss.jpg";
+var Url72 = "image/fotom/lv.jpg";
+
+var Url81 = "image/fotom/gol.png";
+var Url82 = "image/fotom/tms.jpg";
+
+var Url91 = "image/fotom/tmjs.jpg";
+var Url92 = "image/fotom/lv.jpg";
+
+
+var image_tracker = "iamge1";
+function btnm1() {
+var img1 = document.getElementById("1");
+if(image_tracker === "image1"){
+  img1.src = Url12;
+  image_tracker = "image2"
+}else{
+  img1.src = Url11;
+  image_tracker = "image1"
+}
+}
+    
+
+function btnm2() {
+  var img2 = document.getElementById("2");
+if(image_tracker === "image1"){
+  img2.src = Url22;
+  image_tracker = "image2"
+}else{
+  img2.src = Url21;
+  image_tracker = "image1"
+}
+}
+
+function btnm3() {
+  var img3 = document.getElementById("3");
+if(image_tracker === "image1"){
+  img3.src = Url32;
+  image_tracker = "image2"
+}else{
+  img3.src = Url31;
+  image_tracker = "image1"
+}
+}
+
+function btnm4() {
+  var img4 = document.getElementById("4");
+if(image_tracker === "image1"){
+  img4.src = Url42;
+  image_tracker = "image2"
+}else{
+  img4.src = Url41;
+  image_tracker = "image1"
+}
+}
+
+function btnm5() {
+    var img5 = document.getElementById("5");
+if(image_tracker === "image1"){
+  img5.src = Url52;
+  image_tracker = "image2"
+}else{
+  img5.src = Url51;
+  image_tracker = "image1"
+}
+}
+
+function btnm6() {
+    var img6 = document.getElementById("6");
+if(image_tracker === "image1"){
+  img6.src = Url62;
+  image_tracker = "image2"
+}else{
+  img6.src = Url61;
+  image_tracker = "image1"
+}
+}
+
+function btnm7() {
+    var img7 = document.getElementById("7");
+if(image_tracker === "image1"){
+  img7.src = Url72;
+  image_tracker = "image2"
+}else{
+  img7.src = Url71;
+  image_tracker = "image1"
+}
+}
+
+function btnm8() {
+    var img8 = document.getElementById("8");
+if(image_tracker === "image1"){
+  img8.src = Url82;
+  image_tracker = "image2"
+}else{
+  img8.src = Url81;
+  image_tracker = "image1"
+}
+}
+
+function btnm9() {
+    var img9 = document.getElementById("9");
+if(image_tracker === "image1"){
+  img9.src = Url92;
+  image_tracker = "image2"
+}else{
+  img9.src = Url91;
+  image_tracker = "image1"
+}
+}
+// -----------------------------------------------------------6441413 mobile --------------------------------------
+function btnma() {
+var img1 = document.getElementById("a");
+if(image_tracker === "image1"){
+  img1.src = Url12;
+  image_tracker = "image2"
+}else{
+  img1.src = Url11;
+  image_tracker = "image1"
+}
+}
+    
+
+function btnmb() {
+  var img2 = document.getElementById("b");
+if(image_tracker === "image1"){
+  img2.src = Url22;
+  image_tracker = "image2"
+}else{
+  img2.src = Url21;
+  image_tracker = "image1"
+}
+}
+
+function btnmc() {
+  var img3 = document.getElementById("c");
+if(image_tracker === "image1"){
+  img3.src = Url32;
+  image_tracker = "image2"
+}else{
+  img3.src = Url31;
+  image_tracker = "image1"
+}
+}
+
+function btnmd() {
+  var img4 = document.getElementById("d");
+if(image_tracker === "image1"){
+  img4.src = Url42;
+  image_tracker = "image2"
+}else{
+  img4.src = Url41;
+  image_tracker = "image1"
+}
+}
+
+function btnme() {
+    var img5 = document.getElementById("e");
+if(image_tracker === "image1"){
+  img5.src = Url52;
+  image_tracker = "image2"
+}else{
+  img5.src = Url51;
+  image_tracker = "image1"
+}
+}
+
+function btnmf() {
+    var img6 = document.getElementById("f");
+if(image_tracker === "image1"){
+  img6.src = Url62;
+  image_tracker = "image2"
+}else{
+  img6.src = Url61;
+  image_tracker = "image1"
+}
+}
+
+function btnmg() {
+    var img7 = document.getElementById("g");
+if(image_tracker === "image1"){
+  img7.src = Url72;
+  image_tracker = "image2"
+}else{
+  img7.src = Url71;
+  image_tracker = "image1"
+}
+}
+
+function btnmh() {
+    var img8 = document.getElementById("h");
+if(image_tracker === "image1"){
+  img8.src = Url82;
+  image_tracker = "image2"
+}else{
+  img8.src = Url81;
+  image_tracker = "image1"
+}
+}
+
+function btnmi() {
+    var img9 = document.getElementById("i");
+if(image_tracker === "image1"){
+  img9.src = Url92;
+  image_tracker = "image2"
+}else{
+  img9.src = Url91;
+  image_tracker = "image1"
+}
+}
