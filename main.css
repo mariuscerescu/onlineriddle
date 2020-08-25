@@ -846,7 +846,7 @@ width: 400px;
 	margin-left: 10px;
 }
 
-.label{
+.checkbtn{
 	height: 100%;
 display: flex;
 flex-direction: row-reverse;
@@ -898,7 +898,7 @@ nav ul li a{
 #check:checked ~ label #btncheck{
 display: none;
 	}
-	#check:checked ~ label #cancel{
+#check:checked ~ label #cancel{
 display: block;
 	}
 
