@@ -81,6 +81,7 @@ function t2(){
 		document.getElementById('9').style.display === "none"){
 
 		document.getElementById('5').style.display = "inline"
+    document.getElementById('reset').style.display ="none"
 	}
 }
 
@@ -113,6 +114,8 @@ function t6(){
 		document.getElementById('9').style.display === "none"){
 
 		document.getElementById('5').style.display = "inline"
+    document.getElementById('reset').style.display ="none"
+
 	}
 	
 }
@@ -144,6 +147,7 @@ function t9(){
 		document.getElementById('9').style.display === "none"){
 
 		document.getElementById('5').style.display = "inline"
+    document.getElementById('reset').style.display ="none"
 	}
 }
 	
@@ -516,3 +520,7 @@ if(image_tracker === "image1"){
   image_tracker = "image1"
 }
 }
+
+
+
+
