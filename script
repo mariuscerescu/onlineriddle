@@ -546,7 +546,6 @@ function validation() {
     form.classList.remove("invalid")
     text.innerHTML = ""
     text.style.color = "#00ff00"
-    document.getElementById("form").action = "javascript:void(0)";
 
   }
 }
