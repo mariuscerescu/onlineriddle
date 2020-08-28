@@ -526,7 +526,7 @@ function validation() {
   var form = document.getElementById("form");
   var email = document.getElementById("email").value;
   var text = document.getElementById("validationText");
-  var pattern =/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+  var pattern =/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   if (email.match(pattern)) {
     form.classList.add("valid")
