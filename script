@@ -571,7 +571,7 @@ function validation() {
 
 // }
 
-
+// ---------------------------------------------------navbar close on link click--------------------------
         window.onload = function() {
 
 
@@ -589,3 +589,4 @@ function validation() {
                 document.getElementById("check").checked = false;
           }
         }
+        // ----------------------------------------------------------------------
