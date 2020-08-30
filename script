@@ -552,5 +552,30 @@ function validation() {
   }
 }
 
+// -----------------------------------m auto page transfer---------------------------
+
+// function mimg() {
+//   if (
+// document.getElementById("1").src === Url12 &&
+// document.getElementById("2").src === Url21 &&
+// document.getElementById("3").src === Url32 &&
+// document.getElementById("4").src === Url41 &&
+// document.getElementById("5").src === Url52 &&
+// document.getElementById("6").src === Url61 &&
+// document.getElementById("7").src === Url72 &&
+// document.getElementById("8").src === Url81 &&
+// document.getElementById("9").src === Url92 
+//      ) {
+//     document.getElementById("textbox").style.display = "none"
+//   }
+
+// }
 
 
+  window.onload = function z() {
+    var about = document.getElementById("about");
+    about.onclick = function y() {
+document.getElementsByClassName("txt11").style.display = "none";
+    }
+
+  }

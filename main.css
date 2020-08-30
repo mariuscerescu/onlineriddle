@@ -456,6 +456,11 @@ font-family: 'Lexend Deca', sans-serif;
   cursor: pointer;
 }
 
+.button:hover{
+		background-color: gray ;
+	color:white;
+	transition: 0.3s;
+}
 /*----------------------------------------FOOTER----------------------------------*/
 
 .footer{
@@ -957,3 +962,4 @@ display: block;
 		margin-left: 20px;
 	}
 }
+
