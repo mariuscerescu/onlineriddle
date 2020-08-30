@@ -572,10 +572,20 @@ function validation() {
 // }
 
 
-  window.onload = function z() {
-    var about = document.getElementById("about");
-    about.onclick = function y() {
-document.getElementsByClassName("txt11").style.display = "none";
-    }
+        window.onload = function() {
 
-  }
+
+          var contact = document.getElementById("contact");
+          var about = document.getElementById("about");
+
+          about.onclick = function() {
+
+             document.getElementById("check").checked = false;
+
+          }
+
+          contact.onclick = function() {
+
+                document.getElementById("check").checked = false;
+          }
+        }
