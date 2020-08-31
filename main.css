@@ -461,6 +461,14 @@ font-family: 'Lexend Deca', sans-serif;
 	color:white;
 	transition: 0.3s;
 }
+
+#m_cong{
+	font-family:'Lexend Deca', sans-serif;
+	color:white;
+	display:none;
+	text-align: center;
+	font-size: 30px;
+}
 /*----------------------------------------FOOTER----------------------------------*/
 
 .footer{

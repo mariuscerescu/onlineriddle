@@ -567,10 +567,12 @@ function rightpos() {
      track8 === 0 &&
      track9 === 1 ){
     document.getElementById("btnanswer").style.display = "block";
+  document.getElementById("m_cong").style.display = "block";
   } 
 else{
 
   document.getElementById("btnanswer").style.display = "none";
+  document.getElementById("m_cong").style.display = "none";
   }
 }
 // -------------------------------------------------form validation-------------------------------
