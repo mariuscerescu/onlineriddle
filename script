@@ -268,29 +268,9 @@ return false;
 
   // -------------------------------------------------------InputBox5
 function answer5() {
-  var input = document.getElementById("txtbox").value;
-  if(input === "m"){
 
-document.getElementById("form1").action="m.html";
-  } else {
-    
-
-    document.getElementById("wrong").innerHTML ="The answer is wrong!"
-  }
 }
 
-
-function validateMyForm5() {
-var input = document.getElementById("txtbox").value;
-  if(input === "m"){
-
-return true;
-  } else {
-    
-return false;
-  }
-
-};
 // ------------------------------------------------------------6441413---------------------------------------
 var Url11 = "image/fotom/lv.jpg";
 var Url12 = "image/fotom/tmsd.jpg";
@@ -321,6 +301,7 @@ var Url92 = "image/fotom/lv.jpg";
 
 
 var image_tracker = "iamge1";
+var track1,track2,track3,track4,track5,track6,track7,track8,track9;
 function btnm1() {
 var img1 = document.getElementById("1");
 if(image_tracker === "image1"){
@@ -330,6 +311,9 @@ if(image_tracker === "image1"){
   img1.src = Url11;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track1 = 1;
+} else{track1 = 0;}
 }
     
 
@@ -342,6 +326,9 @@ if(image_tracker === "image1"){
   img2.src = Url21;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track2 = 1;
+} else{track2 = 0;}
 }
 
 function btnm3() {
@@ -353,6 +340,9 @@ if(image_tracker === "image1"){
   img3.src = Url31;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track3 = 1;
+} else{track3 = 0;}
 }
 
 function btnm4() {
@@ -364,6 +354,9 @@ if(image_tracker === "image1"){
   img4.src = Url41;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track4 = 1;
+} else{track4 = 0;}
 }
 
 function btnm5() {
@@ -375,6 +368,9 @@ if(image_tracker === "image1"){
   img5.src = Url51;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track5 = 1;
+} else{track5 = 0;}
 }
 
 function btnm6() {
@@ -386,6 +382,9 @@ if(image_tracker === "image1"){
   img6.src = Url61;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track6 = 1;
+} else{track6 = 0;}
 }
 
 function btnm7() {
@@ -397,6 +396,9 @@ if(image_tracker === "image1"){
   img7.src = Url71;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track7 = 1;
+} else{track7 = 0;}
 }
 
 function btnm8() {
@@ -408,6 +410,9 @@ if(image_tracker === "image1"){
   img8.src = Url81;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track8 = 1;
+} else{track8 = 0;}
 }
 
 function btnm9() {
@@ -419,6 +424,9 @@ if(image_tracker === "image1"){
   img9.src = Url91;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track9 = 1;
+} else{track9 = 0;}
 }
 // -----------------------------------------------------------6441413 mobile --------------------------------------
 function btnma() {
@@ -430,6 +438,9 @@ if(image_tracker === "image1"){
   img1.src = Url11;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track1 = 1;
+} else{track1 = 0;}
 }
     
 
@@ -442,6 +453,9 @@ if(image_tracker === "image1"){
   img2.src = Url21;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track2 = 1;
+} else{track2 = 0;}
 }
 
 function btnmc() {
@@ -453,6 +467,9 @@ if(image_tracker === "image1"){
   img3.src = Url31;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track3 = 1;
+} else{track3 = 0;}
 }
 
 function btnmd() {
@@ -464,6 +481,9 @@ if(image_tracker === "image1"){
   img4.src = Url41;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track4 = 1;
+} else{track4 = 0;}
 }
 
 function btnme() {
@@ -475,6 +495,9 @@ if(image_tracker === "image1"){
   img5.src = Url51;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track5 = 1;
+} else{track5 = 0;}
 }
 
 function btnmf() {
@@ -486,6 +509,9 @@ if(image_tracker === "image1"){
   img6.src = Url61;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track6 = 1;
+} else{track6 = 0;}
 }
 
 function btnmg() {
@@ -497,6 +523,9 @@ if(image_tracker === "image1"){
   img7.src = Url71;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track7 = 1;
+} else{track7 = 0;}
 }
 
 function btnmh() {
@@ -508,6 +537,9 @@ if(image_tracker === "image1"){
   img8.src = Url81;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track8 = 1;
+} else{track8 = 0;}
 }
 
 function btnmi() {
@@ -519,8 +551,28 @@ if(image_tracker === "image1"){
   img9.src = Url91;
   image_tracker = "image1"
 }
+if(image_tracker === "image2"){
+  track9 = 1;
+} else{track9 = 0;}
 }
 
+function rightpos() {
+  if(track1 === 1 &&
+     track2 === 0 &&
+     track3 === 1 &&
+     track4 === 0 &&
+     track5 === 1 &&
+     track6 === 0 &&
+     track7 === 1 &&
+     track8 === 0 &&
+     track9 === 1 ){
+    document.getElementById("btnanswer").style.display = "block";
+  } 
+else{
+
+  document.getElementById("btnanswer").style.display = "none";
+  }
+}
 // -------------------------------------------------form validation-------------------------------
 function validation() {
   var form = document.getElementById("form");
