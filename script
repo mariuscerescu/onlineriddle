@@ -300,7 +300,7 @@ var Url91 = "image/fotom/tmjs.jpg";
 var Url92 = "image/fotom/lv.jpg";
 
 
-var image_tracker = "iamge1";
+var image_tracker = "image1";
 var track1,track2,track3,track4,track5,track6,track7,track8,track9;
 function btnm1() {
 var img1 = document.getElementById("1");
