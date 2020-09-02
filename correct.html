@@ -67,8 +67,9 @@
 
     <h1 id="size1"> <p class="txt41" > You are incredible!<br> now you are at the fourth step. </p></h1>
 <br>
-    <h1 id="size2"> <p class="txt42"> <span>Write all the answers together</span>
-                                      <span> from left to right.</span> </p> </h1>
+    <h1 id="size2"> <p class="txt42"> <span>Here you have to solve some math puzzles.</span>
+      <br>
+                                      <span> Good Luck!</span> </p> </h1>
 
 <br>
 <br>
@@ -76,31 +77,67 @@
 
 <table id="tablecorrect1" style="border-collapse:collapse" align="center" >
 	<tr>
-		<td align="center"><img src="image/math1.jpg" width="70%"></td>
-		<td align="center"><img src="image/math2.jpg" width="70%"></td>
-		<td align="center"><img src="image/math3.jpg" width="70%"></td>
-		<td align="center"><img src="image/math4.jpg" width="70%"></td>
-		<td align="center"><img src="image/math5.jpg" width="70%"></td>
+		<td align="center"><img src="image/math1.jpg" width="70%">
+      <input type="text" class="numAnswer" id="numAnswer1">
+      <button class="mathInput" onclick="mathanswer1(),mathAnswerCounter()"> Check </button>
+      <img id ="mathCheckImg1" class="mathCheckImg"> </td> </td>
+
+		<td align="center"><img src="image/math2.jpg" width="70%">
+     <input type="text" class="numAnswer" id="numAnswer2">
+     <button class="mathInput" onclick="mathanswer2(),mathAnswerCounter()">Check</button> 
+     <img id ="mathCheckImg2" class="mathCheckImg"></td> 
+
+		<td align="center"><img src="image/math3.jpg" width="70%">
+     <input type="text" class="numAnswer" id="numAnswer3">
+      <button class="mathInput" onclick="mathanswer3(),mathAnswerCounter()">Check</button>
+       <img id ="mathCheckImg3" class="mathCheckImg"></td>
+
+		<td align="center"><img src="image/math4.jpg" width="70%">
+     <input type="text" class="numAnswer" id="numAnswer4">
+      <button class="mathInput" onclick="mathanswer4(),mathAnswerCounter()">Check</button>
+       <img id ="mathCheckImg4" class="mathCheckImg"></td>
+
+		<td align="center"><img src="image/math5.jpg" width="70%">
+     <input type="text" class="numAnswer" id="numAnswer5">
+      <button class="mathInput" onclick="mathanswer5(),mathAnswerCounter()">Check</button> 
+      <img id ="mathCheckImg5" class="mathCheckImg"></td>
 		
 	</tr>
 </table>
 
 <table id="tablecorrect2" align="center"> 
-       <tr align="center"> <td> <img src="image/math1.jpg" width="70%"> </td> </tr>
-       <tr align="center"> <td> <img src="image/math2.jpg" width="70%"> </td> </tr>
-       <tr align="center"> <td> <img src="image/math3.jpg" width="70%"> </td> </tr>
-       <tr align="center"> <td> <img src="image/math4.jpg" width="70%"> </td> </tr>
-       <tr align="center"> <td> <img src="image/math5.jpg" width="70%"> </td> </tr>
+       <tr align="center"> <td> <img src="image/math1.jpg" width="70%">
+       <input type="text" class="numAnswer" id="numAnswerA">
+      <button class="mathInput" onclick="mathanswera(),mathAnswerCounter()"> Check </button>
+      <img id ="mathCheckImgA" class="mathCheckImg"> </td> </tr>
+
+       <tr align="center"> <td> <img src="image/math2.jpg" width="70%">
+       <input type="text" class="numAnswer" id="numAnswerB">
+     <button class="mathInput" onclick="mathanswerb(),mathAnswerCounter()">Check</button> 
+     <img id ="mathCheckImgB" class="mathCheckImg"> </td> </tr>
+
+       <tr align="center"> <td> <img src="image/math3.jpg" width="70%">
+       <input type="text" class="numAnswer" id="numAnswerC">
+      <button class="mathInput" onclick="mathanswerc(),mathAnswerCounter()">Check</button>
+       <img id ="mathCheckImgC" class="mathCheckImg"> </td> </tr>
+
+       <tr align="center"> <td> <img src="image/math4.jpg" width="70%">
+       <input type="text" class="numAnswer" id="numAnswerD">
+      <button class="mathInput" onclick="mathanswerd(),mathAnswerCounter()">Check</button>
+       <img id ="mathCheckImgD" class="mathCheckImg"> </td> </tr>
+
+       <tr align="center"> <td> <img src="image/math5.jpg" width="70%">
+       <input type="text" class="numAnswer" id="numAnswerE">
+      <button class="mathInput" onclick="mathanswere(),mathAnswerCounter()">Check</button> 
+      <img id ="mathCheckImgE" class="mathCheckImg"> </td> </tr>
 </table>    
 
 <br>
-<!-- ----------------------------------------------------------------------------TEXT BOX----------------------->  
- <div style="text-align: center;" > <form name="form1" id="form1" onsubmit="return validateMyForm4();">
-    <input type="text" name="txtbox" id="txtbox" placeholder="Enter the answer">
-    <br> <button onclick="answer4()" id="btnanswer" > next step </button>
-</form> </div>
+<!-- --------------------------------------------------------------------answer button----------------------->  
+ <div style="text-align: center;" >
+<br> <a href="6441413.html" ><button style="display:none;" id="btnanswer"> next step </button></a>
+</div>
 <br>
-<p id="wrong" style="text-align: center;" > </p>
 <!-------------------------------------------------------------------------------->
 <br>
 <br>

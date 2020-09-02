@@ -240,37 +240,6 @@ return false;
 
 };
 
-// -------------------------------------------------------InputBox4
-function answer4() {
-  var input = document.getElementById("txtbox").value;
-  if(input === "6441413"){
-
-document.getElementById("form1").action="6441413.html";
-  } else {
-    
-
-    document.getElementById("wrong").innerHTML ="The answer is wrong!"
-  }
-}
-
-
-function validateMyForm4() {
-var input = document.getElementById("txtbox").value;
-  if(input === "6441413"){
-
-return true;
-  } else {
-    
-return false;
-  }
-
-};
-
-  // -------------------------------------------------------InputBox5
-function answer5() {
-
-}
-
 // ------------------------------------------------------------6441413---------------------------------------
 var Url11 = "image/fotom/lv.jpg";
 var Url12 = "image/fotom/tmsd.jpg";
@@ -341,7 +310,7 @@ if(image_tracker === "image3"){
   img2.src = Url23;
   image_tracker = "image3"
 }
-if(image_tracker === "image2"){
+if(image_tracker === "image1"){
   track2 = 1;
 } else{track2 = 0;}
 }
@@ -375,7 +344,7 @@ if(image_tracker === "image3"){
   img4.src = Url43;
   image_tracker = "image3"
 }
-if(image_tracker === "image2"){
+if(image_tracker === "image1"){
   track4 = 1;
 } else{track4 = 0;}
 }
@@ -409,7 +378,7 @@ if(image_tracker === "image3"){
   img6.src = Url63;
   image_tracker = "image3"
 }
-if(image_tracker === "image2"){
+if(image_tracker === "image1"){
   track6 = 1;
 } else{track6 = 0;}
 }
@@ -443,7 +412,7 @@ if(image_tracker === "image3"){
   img8.src = Url83;
   image_tracker = "image3"
 }
-if(image_tracker === "image2"){
+if(image_tracker === "image1"){
   track8 = 1;
 } else{track8 = 0;}
 }
@@ -497,7 +466,7 @@ if(image_tracker === "image3"){
   img2.src = Url23;
   image_tracker = "image3"
 }
-if(image_tracker === "image2"){
+if(image_tracker === "image1"){
   track2 = 1;
 } else{track2 = 0;}
 }
@@ -531,7 +500,7 @@ if(image_tracker === "image3"){
   img4.src = Url43;
   image_tracker = "image3"
 }
-if(image_tracker === "image2"){
+if(image_tracker === "image1"){
   track4 = 1;
 } else{track4 = 0;}
 }
@@ -565,7 +534,7 @@ if(image_tracker === "image3"){
   img6.src = Url63;
   image_tracker = "image3"
 }
-if(image_tracker === "image2"){
+if(image_tracker === "image1"){
   track6 = 1;
 } else{track6 = 0;}
 }
@@ -599,7 +568,7 @@ if(image_tracker === "image3"){
   img8.src = Url83;
   image_tracker = "image3"
 }
-if(image_tracker === "image2"){
+if(image_tracker === "image1"){
   track8 = 1;
 } else{track8 = 0;}
 }
@@ -623,13 +592,13 @@ if(image_tracker === "image2"){
 
 function rightpos() {
   if(track1 === 1 &&
-     track2 === 0 &&
+     track2 === 1 &&
      track3 === 1 &&
-     track4 === 0 &&
+     track4 === 1 &&
      track5 === 1 &&
-     track6 === 0 &&
+     track6 === 1 &&
      track7 === 1 &&
-     track8 === 0 &&
+     track8 === 1 &&
      track9 === 1 ){
     document.getElementById("btnanswer").style.display = "block";
   document.getElementById("m_cong").style.display = "block";
@@ -671,25 +640,6 @@ function validation() {
   }
 }
 
-// -----------------------------------m auto page transfer---------------------------
-
-// function mimg() {
-//   if (
-// document.getElementById("1").src === Url12 &&
-// document.getElementById("2").src === Url21 &&
-// document.getElementById("3").src === Url32 &&
-// document.getElementById("4").src === Url41 &&
-// document.getElementById("5").src === Url52 &&
-// document.getElementById("6").src === Url61 &&
-// document.getElementById("7").src === Url72 &&
-// document.getElementById("8").src === Url81 &&
-// document.getElementById("9").src === Url92 
-//      ) {
-//     document.getElementById("textbox").style.display = "none"
-//   }
-
-// }
-
 // ---------------------------------------------------navbar close on link click--------------------------
         window.onload = function() {
 
@@ -709,3 +659,142 @@ function validation() {
           }
         }
         // ----------------------------------------------------------------------
+
+        // ------------------------------------------------math answers inputs ----------------------------------
+var mathcheck1, mathcheck2, mathcheck3, mathcheck4, mathcheck5;
+var valid = "image/valid.png";
+var invalid = "image/invalid.png";
+
+function mathanswer1() {
+  var answer = document.getElementById("numAnswer1").value;
+  var img = document.getElementById("mathCheckImg1");
+  if(answer == 6){
+img.src = valid;
+mathcheck1 = 1;
+  }else{
+    img.src = invalid;
+    mathcheck1 = 0;
+  }
+}
+
+function mathanswer2() {
+  var answer = document.getElementById("numAnswer2").value;
+  var img = document.getElementById("mathCheckImg2");
+  if(answer == 4){
+img.src = valid;
+mathcheck2 = 1;
+  }else{
+    img.src = invalid;
+    mathcheck2 = 0;
+  }
+}
+
+function mathanswer3() {
+  var answer = document.getElementById("numAnswer3").value;
+  var img = document.getElementById("mathCheckImg3");
+  if(answer == 4){
+img.src = valid;
+mathcheck3 = 1;
+  }else{
+    img.src = invalid;
+    mathcheck3 = 0;
+  }
+}
+
+function mathanswer4() {
+  var answer = document.getElementById("numAnswer4").value;
+  var img = document.getElementById("mathCheckImg4");
+  if(answer == 14){
+img.src = valid;
+mathcheck4 = 1;
+  }else{
+    img.src = invalid;
+    mathcheck4 = 0;
+  }
+}
+
+function mathanswer5() {
+  var answer = document.getElementById("numAnswer5").value;
+  var img = document.getElementById("mathCheckImg5");
+  if(answer == 13){
+img.src = valid;
+mathcheck5 = 1;
+  }else{
+    img.src = invalid;
+    mathcheck5 = 0;
+  }
+}
+
+function mathAnswerCounter() {
+  if(mathcheck1 === 1 &&
+     mathcheck2 === 1 &&
+     mathcheck3 === 1 &&
+     mathcheck4 === 1 &&
+     mathcheck5 === 1 ){
+document.getElementById("btnanswer").style.display = "block";
+  } else{
+    document.getElementById("btnanswer").style.display = "none";
+
+  }
+}
+
+       // ------------------------------------------------math answers inputs mobile ----------------------------------
+function mathanswera() {
+  var answer = document.getElementById("numAnswerA").value;
+  var img = document.getElementById("mathCheckImgA");
+  if(answer == 6){
+img.src = valid;
+mathcheck1 = 1;
+  }else{
+    img.src = invalid;
+    mathcheck1 = 0;
+  }
+}
+
+function mathanswerb() {
+  var answer = document.getElementById("numAnswerB").value;
+  var img = document.getElementById("mathCheckImgB");
+  if(answer == 4){
+img.src = valid;
+mathcheck2 = 1;
+  }else{
+    img.src = invalid;
+    mathcheck2 = 0;
+  }
+}
+
+function mathanswerc() {
+  var answer = document.getElementById("numAnswerC").value;
+  var img = document.getElementById("mathCheckImgC");
+  if(answer == 4){
+img.src = valid;
+mathcheck3 = 1;
+  }else{
+    img.src = invalid;
+    mathcheck3 = 0;
+  }
+}
+
+function mathanswerd() {
+  var answer = document.getElementById("numAnswerD").value;
+  var img = document.getElementById("mathCheckImgD");
+  if(answer == 14){
+img.src = valid;
+mathcheck4 = 1;
+  }else{
+    img.src = invalid;
+    mathcheck4 = 0;
+  }
+}
+
+function mathanswere() {
+  var answer = document.getElementById("numAnswerE").value;
+  var img = document.getElementById("mathCheckImgE");
+  if(answer == 13){
+img.src = valid;
+mathcheck5 = 1;
+  }else{
+    img.src = invalid;
+    mathcheck5 = 0;
+  }
+}

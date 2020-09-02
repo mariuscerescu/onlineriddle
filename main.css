@@ -441,8 +441,41 @@ font-family: 'Lexend Deca', sans-serif;
   margin: 4px 2px;
   cursor: pointer;
 }
+/*----------------------------------------correct-------------------*/
 
+.numAnswer{
+	margin-top: 10px;
+	width: 100px;
+	display: block;
+}
 
+.mathInput{
+	background-color: white;
+  font-size: 14px;
+  text-align: center;
+  border:1px solid  black;
+  text-decoration: none;
+  outline: none;
+  margin:5px auto 0; /*the space out*/
+  padding: 2px 10px; /*the space inside*/
+  letter-spacing: 1px;
+color:black;
+display: block;
+}
+.mathInput:hover{
+background-color: grey ;
+  color:white;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+.mathCheckImg{
+	width: 20px;
+	margin-top: 5px;
+	display: block;
+}
+
+/*------------------------------------------------------------------6441413---------*/
 .button{ /*butoanele cu care formezi litera M din 6441413 */
    background-color: #lightgray;
   border: none;
@@ -670,7 +703,7 @@ margin-right: 10px;
 }
 
 #tablecorrect2{
-	display:block; ;
+	display:block; 
 }
 #tablecorrect2{
 	border-spacing: 10px;
